@@ -12,7 +12,7 @@ public class git {
 		 * 
 		 */
 		
-		System.out.println("WE ARE LEARNING GIT!");
+		System.out.println("WE ARE LEARNING GIT!.........");
 
 	}
 
