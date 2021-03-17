@@ -5,7 +5,7 @@ public class HW6 {
 	public static void main(String[] args) {
 		// Write a java program to check whether a given number is prime or not?
 
-		int num = 15 ;
+		int num = 2 ;
 		boolean prime = true;
 
 		if (num > 1) {

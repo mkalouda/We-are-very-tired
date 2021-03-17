@@ -22,6 +22,8 @@ public class ObjectsInJava {
 		SamsungS21.make = "Samsung";
 		SamsungS21.color = "Phantom Black";
 		
+		System.out.println(iPhone.model);
+		
 
 	}
 

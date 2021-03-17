@@ -8,6 +8,7 @@ public class Main {
 		SimpleClass class1 = new SimpleClass();
 		class1.var1="eva";
 		class1.method1();
+		
 		String var1 = class1.returnTheValueOfVar1();
 		System.out.println(var1);
 
