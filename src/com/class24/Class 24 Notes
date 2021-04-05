@@ -1,0 +1,7 @@
+Overriding:
+When we have same methods in parent and child classes.
+1. There should be a parent child relationship between the classes.
+2. The return type, name, and parameters of the method should be the same
+3. We cannot override private methods/constructors because they don't participate in inheritance
+4. We can not decrease the visibility of a method being over-written but we can increase it
+5. When it comes to static method we say that we are re=declaring a method instead of overriding it

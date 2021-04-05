@@ -1,0 +1,45 @@
+Methods:
+Method is a block of code that performs some action and it may or may not return anything.
+
+Method definition:
+-Access Modifiers : could be public, private, protected, Default
+1. public methods are accessible anywhere in the project
+ public static void  method1(){
+
+    }
+
+
+Most widely used access modifiers are public and private
+always use public if you want to expose some functionalities of your classes to other classes
+private should be used when the functionality is only supposed to be used within the same class
+
+static: we can call this method without creating an object of the class
+
+Return Type:
+void-> returns nothing
+can return anything by calling it
+
+name:
+()-> if we are not getting anything from outside we leave it empty
+(ex. int number)-> if we are taking any input we mention it in the parenthesis
+
+{} = body of the method
+===============================================================================================
+
+Types of variables in java by scope:
+There are three types of variables in by scope in java
+1. local
+any variable declared in side any block of code (method constructor, loops, switch etc.)
+benefits: occupies the memory for short amount of time once the block is executed, memory is free to be utilized
+issue: limited scope can only be accessed inside that specific block
+
+2. instance
+any variable declared inside a class but outside a block of code
+benefits: access anywhere in the class
+issue: keep occupying the memory as far the object stays in the memory, should be avoided
+
+3.static
+are shared across all the instances of a class, they belong to class and can be accessed by writing the
+name of the class
+
+
