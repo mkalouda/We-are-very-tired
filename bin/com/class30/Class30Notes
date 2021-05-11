@@ -1,0 +1,17 @@
+Variables and arrays are not flexible to solve common life problems to overcome this we have collections framework
+but collection framework cant be used with primitive types it only support object type
+
+Wrapper classes:
+-- are object equivalent of primitive data types that can be used with collections framework and have built in methods
+to convert one data type to another
+1. Arraylist:
+-- insertion order is maintained
+-- Arraylist can contain duplicate values
+-- we can access the elements using indexes by using the get method
+-- if we are using collections framework to access the data most of the time we should be using arraylist
+ because arraylists use arrays under the hood, the read access is very fast with arrays
+ -- if we require to insert the data in front or in the middle of the arraylist then we should not be using arraylist
+ because when an item is inserted in between or in the start all the elements in the arraylist are shifted towards right
+ (can be very slow if data is huge)
+ -- because the arraylist can modify its size at run time it can be problematic to use loops to perform the add and
+ remove operations to overcome this we have iterators in java

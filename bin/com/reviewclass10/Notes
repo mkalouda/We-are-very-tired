@@ -1,0 +1,54 @@
+Four Pillars of OOPS
+1. Inheritance:
+    It is a mechanism that allows to inherit properties and methods from one class to another, in order to
+    avoid duplication. We use the extend keyword to inherit from one class
+
+2. Polymorphism:
+    Capability of a method to do different things based on object that it is acting upon. Same method can act on many
+    different forms, we do not need to come up with different names everytime we need slightly different behavior.
+    We can achieve polymorphism through method overloading and method overriding.
+
+3. Abstraction:
+   Abstraction is a process of hiding implementation details and showing only functionality to the user.
+   Abstraction is what an Object does instead of how it does it.
+        1. what the method will return
+        2. what will be the name of the method
+        3. how many and which type of arguments it will take
+   Child class now provides the implementation
+
+   Rules for abstract class:
+        1. we can not create object of the abstract classes
+        2. we can not decrease the visibility of the access modifier
+        3. child class must define the abstract methods or it should be declared as abstract
+        4. we can not declare a method as private and abstract at the same time because private methods don't
+        participate in inheritance
+        5. we can not declare methods as final and abstract at the same time because final means something is
+        complete and abstract means something is incomplete and requires implementation by child classes
+        6. we can not make method as static and abstract at the same time because static methods can not be overriden
+        rather they are re-declared in child class and we call it method hiding
+        7. return type in the parent and child classes must be same
+        8. we can not declare constructors as abstract
+        9. we can declare a class as abstract even though there are no abstract methods in it
+        10. we can not use abstract keyword with fields in abstract class only allowed with methods and class names
+
+   We can also achieve Interfaces:
+    Interfaces is collection of abstract, static and default methods.
+    We should be creating interfaces when our child classes have to implement many different unrelated behaviors.
+    If behaviors are closely related and we want implemented and unimplemented methods we should go for abstract class
+
+    Interface Rules:
+    1. for interfaces we use interface keyword instead of class
+    2. interfaces are by default abstract
+    3. all the variables in an interface default public static final
+    4. we can not make instance fields in interfaces
+    5. we can not use abstract keyword with the fields because all th fields are by default final
+    6. all the methods are by default public and abstract
+    7. we can have default methods and static methods in interfaces but they are used to support lambd expression and
+    functional programming advance concepts that we will not discuss
+    8. interfaces can not instance fields thats why they dont have constructors
+    9. interfaces dont have instance methods
+    10. we can not create objects of interfaces
+    11. interfaces support multiple inheritance
+
+
+4. encapsulation:

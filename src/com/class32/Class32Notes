@@ -1,0 +1,18 @@
+Map:
+-- Map is a data structure (A way to store ans manipulate data) that stores the data in the form of keys and values.
+-- keys and values must be object
+-- indexes can be any type of objects, index is just a way of accessing the data from your data structure
+-- maps can have any type of object as their indexes
+-- keys can not be duplicated
+-- values can be duplicated
+
+    When to use maps:
+    1. fast search because underlying data structure is a hash function that stores the data in form of nodes
+    2. when we want the indexes other than natural indexes like integers
+
+    Types of Maps:
+    1. HashMap(order is not maintained, fastest) not thread safe
+    2. LinkedHashMap (order is maintained, slower than hashmap)
+    3. TreeMap (it always store the data in numerical way)
+    4. HashTable (similar to hashmap, it should be used when we have to write multithreaded code
+        because it is thread safe)

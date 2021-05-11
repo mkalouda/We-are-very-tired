@@ -1,0 +1,43 @@
+Collections Framework:
+-- collection of classes and interfaces that can store and manipulate data using different built in data structures
+like arrays linkedLists and sets.
+
+Wrapper class:
+-- are object equivalent of primitive types
+-- collections can not work with primitive data types, they can only work with objects
+-- wrapper class provide built in methods to concert the data types and some useful Constant
+
+ArrayList:
+-- it implements the list interface
+    1. it can hold duplicate values not issues
+    2. insertion order is maintained
+    3. dynamic in nature can adjust the size at run time automatically
+    4. underlying data structure is arrays
+
+Methods in ArrayList class:
+-- add() = adds the element in natural sequence
+-- add() = we can specify the index
+-- get(int index) = return the element specified index
+-- remove(int index) = removes the elements at specified index
+-- remove(object) = object will be removed
+
+LinkedList:
+-- it can hold duplicate values not issues
+-- insertion order is maintained
+-- dynamic in nature can adjust the size at run time automatically
+-- underlying data structure is doubly LinkedList
+
+Sets:
+-- is an interface, we know three classes which implement Set interface
+    1. Hashset (most widely used)
+        -- no duplicates
+        -- no order, since internally they use Hash function
+        -- use when fast search is required
+        -- allows null value
+    2. LinkedHashset
+        -- no duplicates
+        -- insertion order is maintained
+        -- allows null value
+    3. TreeSet
+        -- no duplicates
+        -- all the elements are sorted in natural order

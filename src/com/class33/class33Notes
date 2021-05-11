@@ -1,0 +1,11 @@
+FileHandling:
+-- filehandling in java means reading and writing the data to the files
+
+    steps:
+        1. find the path of the file
+        2. create the objects of FileInputStream/FileOutputStream
+        3. Depending upon the file type we create the object of properties/ XSSFWorkbook
+        4. We read the data/write the data and close our file
+=================================================================================================
+exceptions are some kind of issues/errors that disrupts the normal flow of code during runtime and
+other important lines of code are not executed due to that issue

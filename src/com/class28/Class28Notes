@@ -1,0 +1,22 @@
+Abstraction:
+1. Abstraction is one of the main four oops concept
+2. Abstractions a process of hiding implementation details and showing only functionality to the user.
+    Abstraction helps use focus on what the object does instead of how it does it
+3. we can achieve the abstraction by using
+        abstract classes
+        - Abstract class is a class with abstract keyword that has defined and undefined methods
+        Rules:
+        1. we can not create the object of abstract class directly
+        2. to make a method abstract we use the abstract keyword as not access modifier and we do not provide the
+        method body
+        3. we can not define an abstract method as private, static, and final
+            We can not make an abstract method as private because private methods do not participate in inheritance if
+            something is not participating in inheritance how can we provide the implementation for that entity
+            interfaces
+          Why not static
+          We can not make abstract method as static because we can not override static methods while abstract methods
+          must be overridden
+          Why not final
+          because final meant something is complete and abstract means something is incomplete these two keywords
+          contradict each other
+

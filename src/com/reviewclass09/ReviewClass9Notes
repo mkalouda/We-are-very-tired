@@ -1,0 +1,44 @@
+SuperKeyword:
+    We can use super keyword to access constructors or methods or fields from parent class in child class
+
+    When it makes sense to use super keyword
+    - if we have the same name fields and methods in the parent and child classes then we can use the super keyword
+    with the "this" keyword to distinguish between the fields of child and parent class
+
+    Most widely use of super
+    -super is widely used to call the constructor from the parent class
+=================================================================================================
+Method Overloading:
+    Overloading is a mechanism in java where same method or constructor can exist with different within a class
+
+    uses:
+    cleaner code
+    We do not need to come up with a new name every time if a method is doing the same thing but with different
+    parameters
+
+    We can overload our methods
+        1. changing the number of parameters
+        2. changing the type of parameters
+        3. by changing the sequence of parameters
+
+    We call it static binding, compile time polymorphism, and early binding
+====================================================================================================
+Method Overriding:
+    A mechanism through which parent and child classes can have the same methods
+    If child class does not like the implementation from the parent class
+
+        1. We can not override private methods and constructors because they dont participate in inheritance and
+            not available in child classes
+        2. We can not decrease the visibility because it breaks the inheritance contract
+        3. Static methods can not be overriden they belong to class not object we can hide/re declare them
+        4. Methods must have the same signature and return type
+        5. final methods can not be overriden
+        6. subclass in different package can only override methods that are public or protected
+
+    it is also called dynamic binding, late binding, runtime polymorphism
+====================================================================================================
+Final Keyword:
+    is a non access modifier that used when we have to say something is complete and dont need modification
+    When used with class no other class can inherit it
+    When used with variables we can not change the value of that variable
+    When used with methods those methods can not be overridden

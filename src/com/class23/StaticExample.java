@@ -14,6 +14,8 @@ class ChildStaticExample extends StaticExample{
     }
 
     public static void main(String[] args) {
+
         ChildStaticExample.printInfo("Yulia");
+        StaticExample.printInfo("<a");
     }
 }

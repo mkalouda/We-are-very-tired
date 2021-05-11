@@ -1,0 +1,21 @@
+Exception Handling:
+-- exception is an event that occurs at runtime and disrupts the normal flow of our program
+-- avoiding this behavior and converting the error messages to user friendly message is called exception handling
+
+    keywords:
+        -- try
+        -- catch
+        -- throw
+        -- throws
+
+    try{
+
+    }catch(exception e) {
+    }
+
+    Exceptions we have encountered:
+        -- IndexOutOfBound
+        -- NullPointerException
+        -- IllegalArgumentException
+        -- ArithmeticException
+

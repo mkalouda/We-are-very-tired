@@ -1,0 +1,56 @@
+Collections Framework:
+-- ArrayList
+-- LinkedList
+-- HashSet
+-- LinkedHashSet
+-- TreeSet
+==============================
+ArrayList:
+-- is a data structure that stores the elements based on index
+    1. it can hold duplicate values
+    2. it maintains the insertion order
+    3. dynamic in nature (can adjust the size at run time)
+    4. underlying data structure are arrays
+
+    when to use:
+    1. when we are not sure about the size (will be better if we have an idea of the size we will be dealing with)
+    2. fast retrieval based on index
+
+LinkedList:
+1. it can hold duplicate values
+2. it maintains the insertion order
+3. dynamic in nature (can adjust the size at run time)
+4. underlying data structure are doubly linkedlist
+
+    When to use:
+    1. when we are not sure about the size
+    2. when we have to modify the data most of the time we should be using linkedlist
+
+HashSet:
+1. no duplicates
+2. allows null
+3. no order
+
+    When to use:
+    1. when we have to remove the duplicates from the data (we dont care about the order)
+
+
+linkedHashSet:
+1. no duplicates
+2. allows null
+3. order is maintained
+
+    When to use:
+    1. when we have to remove the duplicates from the data and dont want to lose the order
+
+TreeSet
+1. no duplicates
+2. no null values
+3. data is sorted in natural order
+
+    When to use:
+    1. when we have to remove the duplicates from the data and want it in natural order
+===========================================================================================================
+(not part of collection framework)
+Maps:
+-- map is a interface that helps us store the data in the form of key value pairs

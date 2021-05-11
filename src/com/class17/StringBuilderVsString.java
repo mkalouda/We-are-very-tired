@@ -8,8 +8,8 @@ public class StringBuilderVsString {
 		//it is faster but could be waste of money if storing same value
 		
 		/*
-		 * if we use the StringBuilder class no objects for the duplicate value will be scanned from the memory and always a new object will be 
-		 * created inside the memory
+		 * if we use the StringBuilder class no objects for the duplicate value will be scanned from the memory
+		 * and always a new object will be created inside the memory
 		 * 
 		 * When should we use string and stringbuilder
 		 * - if we know that most of our variables will contain same values and memory utilization is important then we should use string

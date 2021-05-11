@@ -1,0 +1,39 @@
+Constructors:
+    is a special block of code that is executed when we create an object of a class.
+    It is used to initialize the object fields.
+
+    Rules:
+    1. We can use access modifiers (public, protected, default, private) for the constructors
+        If your constructor is public you can create objects anywhere inside your project.
+        If default access modifier you can only create the object of that class within same package.
+        If the constructor is protected and if we are in the same package the behavior is the same as
+        default and could create a class to call it. but if we are outside of the package we can not access
+        protected member(field, methods, constructor) by creating an object of that class but we can directly
+        call them or use them inside our class
+
+        Non Access modifiers:
+        static is not allowed because constructor belong to objects not classes
+        final/abstract is not allowed because constructors do not participate in inheritance
+
+        Use of constructors:
+        to initialize the objects
+
+Inheritance:
+    is a mechanism in java through which a class can inherit members of another class to avoid code
+    duplication
+
+    In java 3 types are supported
+    1. single
+        there is only one child and one parent class
+    2. multilevel
+        it is a chain of inheritance
+    3. hierarchical
+        one parent and many children
+
+    Rules:
+    1. We use extends keyword to define the inheritance relationship
+    2. in Java a subclass can have only onw super class
+    3. private fields/methods/constructors do not participate in inheritance
+    4. object class is the super class of all classes in java
+    5. if super class is declared final we can not inherit it
+    6. if a super class has a parametrize constructor child classes must provide a matching one

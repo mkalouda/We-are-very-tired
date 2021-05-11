@@ -1,0 +1,29 @@
+Variables:
+-- They hold data one value at a time
+-- What if we need to store more data we will have to decalre that many variables not feasible
+
+Arrays:
+-- Consecutive memory location pointed by a single variable
+    Issues
+    1. fixed in size once the array is declared we can not change the size
+    2. if we declare a bigger array at the start we may be wasting memory
+    3. if we declare a smaller array we have to do a lot of work to accommodate entries beyond the size of the array
+
+    To rescue we have collection framework in java
+
+Collection framework:
+-- is a collection of classes and interfaces tha can hold objets as a single unit like arrays but with a lot of
+flexibility
+
+    Pros:
+    1. less code built in methods to solve common problems that we may face
+    2. no fixed sizes all the classes in collections framework are flexible, we done need to declare the size upfront
+    3. memory efficient
+
+    Cons:
+    1. we can not use primitive data types in collections framework  to overcome this issue we have wrapper classes
+
+Wrapper classes:
+-- wrapper classes are just object equivalent of primitive types, for all of the primitive types we have
+   wrapper classes we can use them in collections framework
+
